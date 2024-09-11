@@ -6,12 +6,6 @@ body, h1, h2, p, ul {
     scroll-behavior: smooth;
 }
 
-/* Main Page Layout */
-main {
-    padding: 100px 20px;
-    text-align: center;
-}
-
 /* Navigation */
 nav {
     background-color: rgba(0, 0, 0, 0.7);
@@ -45,17 +39,21 @@ nav ul li a:hover {
     color: #ff6347;
 }
 
-/* Section Styling */
-#unit1 {
-    margin-top: 100px; /* Added margin to offset fixed navigation */
+/* Main Content Styling */
+main {
+    margin-top: 80px; /* Offset fixed navigation */
+    padding: 20px;
+    text-align: center;
 }
 
+/* Title */
 #unit1 h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: #333;
 }
 
+/* Paragraph and List Styling */
 #unit1 p, #unit1 ul {
     font-size: 1.2rem;
     line-height: 1.6;
@@ -64,7 +62,8 @@ nav ul li a:hover {
 
 #unit1 ul {
     list-style-type: decimal;
-    margin: 20px 0;
+    margin: 20px auto;
+    max-width: 600px;
 }
 
 /* Screenshot Section */
@@ -85,7 +84,7 @@ nav ul li a:hover {
 video {
     width: 80%;
     max-width: 800px;
-    margin: 20px 0;
+    margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
