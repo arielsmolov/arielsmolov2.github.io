@@ -130,19 +130,6 @@ audio {
   margin-top: 20px;
 }
 
-/* Projects Section */
-#projects {
-  padding: 100px 20px;
-  background: #fff;
-  text-align: center;
-}
-
-#projects h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  color: #333;
-}
-
 /* Contact Section */
 #contact {
   background-color: #3a3a3a;
