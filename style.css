@@ -12,6 +12,7 @@ body, h1, h2, p, ul {
   background: url('your-background-image.jpg') no-repeat center center/cover;
   color: white;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -33,13 +34,6 @@ body, h1, h2, p, ul {
   font-weight: 600;
 }
 
-#hero p {
-  font-size: 1.5rem;
-  margin-bottom: 40px;
-  letter-spacing: 1px;
-  font-weight: 300;
-}
-
 .hero-btn {
   text-decoration: none;
   color: white;
@@ -50,6 +44,7 @@ body, h1, h2, p, ul {
   font-weight: bold;
   transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
 }
 
 .hero-btn:hover {
@@ -97,37 +92,30 @@ nav ul li a:hover {
   text-align: center;
 }
 
-.about-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-
-.about-image {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
 #about h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
   color: #333;
 }
 
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
 #about p {
   font-size: 1.2rem;
   line-height: 1.6;
-  max-width: 800px;
-  margin: 0 auto;
+  margin-bottom: 20px;
   color: #555;
-}
-
-audio {
-  margin-top: 20px;
 }
 
 /* Contact Section */
@@ -210,10 +198,6 @@ audio {
 @media (max-width: 768px) {
   #hero h1 {
       font-size: 3rem;
-  }
-
-  #hero p {
-      font-size: 1.2rem;
   }
 
   .hero-btn {
