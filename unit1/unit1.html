@@ -1,67 +1,40 @@
-/* General Reset */
-body, h1, h2, p, img, video, a {
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  scroll-behavior: smooth;
-  text-align: center;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-body {
-  background-color: #f4f4f4;
-  padding: 20px;
-}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn to Code 1</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Custom CSS -->
+  <link href="unit1.css" rel="stylesheet" type="text/css" />
+</head>
 
-/* Project Details Section */
-#project-details {
-  margin-bottom: 40px;
-}
+<body>
+  <!-- Project Details Section -->
+  <section id="project-details">
+    <h1>Learn to Code 1</h1>
+    <img src="screenshot1.png" alt="Screenshot 1" class="project-image">
+    <img src="screenshot2.png" alt="Screenshot 2" class="project-image">
+    <h2>Project Overview</h2>
+    <p>This project includes my learning journey through various coding concepts, including commands, loops, conditionals, and more.</p>
+  </section>
 
-#project-details h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-}
+  <!-- Project Video Section -->
+  <section id="project-video">
+    <h2>Project Videos</h2>
+    <video controls class="project-video">
+      <source src="video1.mov" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
 
-.project-image {
-  max-width: 50%;
-  height: auto;
-  margin: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-}
+  <!-- Back to Home Button -->
+  <a href="https://arielsmolov.github.io/arielsmolov2.github.io/" class="back-btn">Back to Home</a>
 
-/* Project Video Section */
-#project-video {
-  margin: 40px 0;
-}
+</body>
 
-#project-video h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.project-video {
-  max-width: 80%;
-  height: auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-}
-
-/* Back to Home Button */
-.back-btn {
-  display: inline-block;
-  padding: 15px 30px;
-  background-color: #ff6347;
-  color: white;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 50px;
-  margin-top: 30px;
-  transition: background 0.3s ease, transform 0.3s ease;
-}
-
-.back-btn:hover {
-  background-color: #e85342;
-  transform: translateY(-3px);
-}
+</html>
