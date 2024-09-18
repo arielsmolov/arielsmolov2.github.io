@@ -1,55 +1,78 @@
-/* General Styling */
-body, h1, a {
+/* General Reset */
+body, h1, h2, p, a {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
+    scroll-behavior: smooth;
+  }
+  
+  body {
     background-color: #f4f4f4;
-}
-
-#projects {
-    padding: 50px 20px;
-}
-
-h1 {
-    font-size: 3rem;
-    margin-bottom: 30px;
-    color: #333;
-}
-
-/* Project Button Styling */
-.project-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.project-btn {
-    display: inline-block;
-    padding: 15px 30px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Header Styling */
+  header {
+    padding: 20px;
     background-color: #ff6347;
     color: white;
-    text-transform: uppercase;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Main Content Styling */
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .project-btn {
+    text-decoration: none;
+    color: white;
+    background: #ff6347;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-size: 1rem;
     font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .project-btn:hover {
+    background: #e85342;
+    transform: translateY(-3px);
+  }
+  
+  /* Footer Styling */
+  footer {
+    margin-top: 40px;
+  }
+  
+  .back-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
     text-decoration: none;
     border-radius: 50px;
+    font-size: 1rem;
     transition: background 0.3s ease, transform 0.3s ease;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
-.project-btn:hover {
-    background-color: #e85342;
+  }
+  
+  .back-btn:hover {
+    background-color: #444;
     transform: translateY(-3px);
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .project-buttons {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .project-btn {
-        font-size: 1.2rem;
-    }
-}
+  }
+  
