@@ -30,6 +30,19 @@ body {
   border-radius: 10px;
 }
 
+/* Project Overview List */
+.project-overview {
+  list-style-type: disc;
+  text-align: left;
+  margin: 20px auto;
+  max-width: 80%;
+  font-size: 1rem; /* Adjusted font size */
+}
+
+.project-overview li {
+  margin-bottom: 10px;
+}
+
 /* Project Video Section */
 #project-video {
   margin: 40px 0;
