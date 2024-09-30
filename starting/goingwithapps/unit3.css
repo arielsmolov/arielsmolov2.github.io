@@ -66,16 +66,20 @@ footer {
 
 .back-btn {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #333;
+    padding: 15px 30px;
+    background-color: #ff6347;
     color: white;
     text-decoration: none;
     border-radius: 50px;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
     transition: background 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
 }
 
 .back-btn:hover {
-    background-color: #444;
+    background-color: #e85342;
     transform: translateY(-3px);
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.5);
 }
