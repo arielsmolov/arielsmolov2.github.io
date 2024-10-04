@@ -15,7 +15,7 @@ body {
 /* Header Styling */
 header {
   padding: 20px;
-  background-color: #ff6347;
+  background-color: #0074D9; /* Blue header to match the theme */
   color: white;
 }
 
@@ -38,10 +38,11 @@ h2 {
   margin-bottom: 15px;
 }
 
+/* Project Buttons Styling */
 .project-btn {
   text-decoration: none;
   color: white;
-  background: #ff6347;
+  background: #0074D9; /* Updated to blue */
   padding: 15px 25px;
   border-radius: 50px;
   font-size: 1rem;
@@ -51,7 +52,7 @@ h2 {
 }
 
 .project-btn:hover {
-  background: #e85342;
+  background: #005BB5; /* Slightly darker blue on hover */
   transform: translateY(-3px);
 }
 
@@ -63,7 +64,7 @@ footer {
 .back-btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #004080; /* Dark blue for the back button */
   color: white;
   text-decoration: none;
   border-radius: 50px;
@@ -72,6 +73,6 @@ footer {
 }
 
 .back-btn:hover {
-  background-color: #444;
+  background-color: #003366; /* Slightly darker shade of blue on hover */
   transform: translateY(-3px);
 }
