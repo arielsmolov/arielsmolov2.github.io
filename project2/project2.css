@@ -1,0 +1,75 @@
+/* General Reset */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Header Styling */
+  header {
+    padding: 20px;
+    background-color: #6495ED;
+    color: white;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Main Content Styling */
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .project-btn {
+    text-decoration: none;
+    color: white;
+    background: #ff6347;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+  }
+  
+  .project-btn:hover {
+    background: #e85342;
+    transform: translateY(-3px);
+  }
+  
+  /* Footer Styling */
+  footer {
+    margin-top: 40px;
+  }
+  
+  .back-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .back-btn:hover {
+    background-color: #444;
+    transform: translateY(-3px);
+  }
+  
