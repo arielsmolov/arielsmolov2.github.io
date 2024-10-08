@@ -35,10 +35,13 @@ body, h1, h2, p, a {
     margin-bottom: 40px;
   }
   
-  h2 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-    color: #004d40;
+  /* Align the buttons side by side */
+  .project-buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between buttons */
+    flex-wrap: wrap; /* Ensure buttons wrap on smaller screens */
+    margin-top: 20px;
   }
   
   .project-btn {
@@ -51,6 +54,7 @@ body, h1, h2, p, a {
     font-weight: bold;
     transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    min-width: 200px; /* Ensure buttons are the same width */
   }
   
   .project-btn:hover {
