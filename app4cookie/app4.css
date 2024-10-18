@@ -1,92 +1,112 @@
 /* General Reset */
-body, h1, h2, p, ul, li, video, a {
+body, h1, h2, p, a {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
-  }
-  
-  body {
-    background-color: #f4f4f4;
+    color: #333;
+}
+
+body {
+    background-color: #f0f8ff;
     padding: 20px;
     text-align: center;
-  }
-  
-  /* Header Styling */
-  header {
+}
+
+/* Header Styling */
+header {
     padding: 20px;
-    background-color: #007bff;
+    background-color: #008080;
     color: white;
-  }
-  
-  header h1 {
+}
+
+header h1 {
     font-size: 2.5rem;
-    margin-bottom: 10px;
-  }
-  
-  /* Section Styling */
-  main {
-    padding: 20px;
-  }
-  
-  h2 {
-    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* Bullet Points Section */
+section {
+    margin-top: 30px;
+    font-size: 1.1rem;
     color: #333;
-    margin-bottom: 20px;
-  }
-  
-  /* Bullet Points Styling */
-  ul {
-    list-style: none;
-    margin-bottom: 40px;
-  }
-  
-  ul li {
-    font-size: 1.2rem;
-    padding: 10px;
-    background-color: #e7f1ff;
-    margin: 10px 0;
-    border-radius: 8px;
-  }
-  
-  /* Videos Section */
-  .videos {
+}
+
+section ul {
+    list-style-type: disc;
+    text-align: left;
+    margin: 20px auto;
+    padding: 0;
+    max-width: 700px;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* Videos Section */
+.video-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
-    margin-bottom: 40px;
-  }
-  
-  .videos video {
+    margin-top: 30px;
+}
+
+.video-container video {
     width: 45%;
-    border: 2px solid #007bff;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Back to Home Button */
-  .back-home {
-    margin-top: 20px;
-  }
-  
-  .back-btn {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Back to Home Button Styling */
+footer {
+    margin-top: 40px;
+}
+
+.back-btn {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
+    padding: 15px 30px;
+    background-color: #00796b;
     color: white;
     text-decoration: none;
     border-radius: 50px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     transition: background 0.3s ease, transform 0.3s ease;
-  }
-  
-  .back-btn:hover {
-    background-color: #0056b3;
-    transform: translateY(-3px);
-  }
-  
-  /* Footer Styling */
-  footer {
-    margin-top: 40px;
-  }
-  
+}
+
+.back-btn:hover {
+    background-color: #004d40;
+    transform: translateY(-5px);
+}
+
+/* Add subtle animations */
+header h1 {
+    animation: fadeInDown 1s ease;
+}
+
+.project-btn, .back-btn {
+    animation: fadeInUp 1s ease;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
