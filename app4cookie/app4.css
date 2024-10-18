@@ -18,14 +18,16 @@ header {
     padding: 20px;
     background-color: #008080;
     color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: 700;
+    animation: fadeInDown 1s ease;
 }
 
-/* Bullet Points Section */
+/* Features Section */
 section {
     margin-top: 30px;
     font-size: 1.1rem;
@@ -38,13 +40,14 @@ section ul {
     margin: 20px auto;
     padding: 0;
     max-width: 700px;
+    animation: fadeInUp 1s ease;
 }
 
 section ul li {
     margin-bottom: 10px;
 }
 
-/* Videos Section */
+/* Video Section */
 .video-container {
     display: flex;
     justify-content: center;
@@ -54,13 +57,19 @@ section ul li {
 }
 
 .video-container video {
-    width: 45%;
+    width: 40%;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-container video:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
 /* Back to Home Button Styling */
-footer {
+.back-home {
     margin-top: 40px;
 }
 
@@ -72,23 +81,17 @@ footer {
     text-decoration: none;
     border-radius: 50px;
     font-size: 1.2rem;
-    transition: background 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .back-btn:hover {
     background-color: #004d40;
     transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
-/* Add subtle animations */
-header h1 {
-    animation: fadeInDown 1s ease;
-}
-
-.project-btn, .back-btn {
-    animation: fadeInUp 1s ease;
-}
-
+/* Animations */
 @keyframes fadeInDown {
     from {
         opacity: 0;
