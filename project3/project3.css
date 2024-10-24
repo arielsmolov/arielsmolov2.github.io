@@ -1,0 +1,84 @@
+/* General Reset */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #e0f7fa;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    padding: 20px;
+    background-color: #00796b;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* Main Content Styling */
+main {
+    padding: 30px;
+}
+
+.project-buttons-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+section {
+    text-align: center;
+}
+
+.project-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #00796b;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project-btn:hover {
+    background: #004d40;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 40px;
+}
+
+.back-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #00796b;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.back-btn:hover {
+    background-color: #004d40;
+    transform: translateY(-5px);
+}
