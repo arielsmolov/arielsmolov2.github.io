@@ -24,6 +24,7 @@ header {
 header h1 {
   font-size: 2.5rem;
   font-weight: 700;
+  animation: fadeInDown 1s ease;
 }
 
 /* Project Button Container */
@@ -45,6 +46,7 @@ header h1 {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   margin-bottom: 30px;
   min-width: 250px;
+  animation: fadeInUp 1s ease;
 }
 
 .project-btn:hover {
@@ -67,6 +69,7 @@ footer {
   border-radius: 50px;
   font-size: 1.1rem;
   transition: background 0.3s ease, transform 0.3s ease;
+  animation: fadeInUp 1s ease;
 }
 
 .back-btn:hover {
@@ -75,14 +78,6 @@ footer {
 }
 
 /* Animations */
-header h1 {
-  animation: fadeInDown 1s ease;
-}
-
-.project-btn, .back-btn {
-  animation: fadeInUp 1s ease;
-}
-
 @keyframes fadeInDown {
   from {
       opacity: 0;
@@ -103,4 +98,13 @@ header h1 {
       opacity: 1;
       transform: translateY(0);
   }
+}
+
+/* Additional Styling for New Button */
+.project-btn:first-of-type {
+  background: linear-gradient(45deg, #ff7e5f, #feb47b); /* Orange gradient for uniqueness */
+}
+
+.project-btn:first-of-type:hover {
+  background: linear-gradient(45deg, #ff4e50, #f9d423);
 }
