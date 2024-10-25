@@ -34,15 +34,15 @@ header h1 {
 }
 
 .screenshot {
-  width: 25%; /* Adjusted to 25% for smaller size */
-  margin: 0 1.5%; /* Space between images */
+  width: 15%; /* Adjusted to 15% for smaller size */
+  margin: 0 1%; /* Space between images */
   border-radius: 10px; /* Optional: rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Video Styling */
 video {
-  width: 40%; /* Adjusted to 40% for smaller size */
+  width: 30%; /* Adjusted to 30% for smaller size */
   margin: 20px 0;
   border-radius: 10px; /* Optional: rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
