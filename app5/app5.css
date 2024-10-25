@@ -1,0 +1,87 @@
+/* General Reset */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    color: #333;
+  }
+  
+  body {
+    background-color: #f0f8ff; /* Light modern background color */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Header Styling */
+  header {
+    padding: 20px;
+    background-color: #1a73e8; /* Modern blue */
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  /* Image Gallery */
+  .image-gallery {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .screenshot {
+    width: 45%; /* Adjust width as needed */
+    margin: 0 2.5%; /* Space between images */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Video Styling */
+  video {
+    width: 80%; /* Adjust width as needed */
+    margin: 20px 0;
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer Styling */
+  footer {
+    margin-top: 40px;
+  }
+  
+  .back-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #1a73e8;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .back-btn:hover {
+    background-color: #0a4d8b;
+    transform: translateY(-5px);
+  }
+  
+  /* Animations */
+  header h1 {
+    animation: fadeInDown 1s ease;
+  }
+  
+  @keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+  
