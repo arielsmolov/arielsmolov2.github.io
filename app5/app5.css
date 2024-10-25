@@ -34,7 +34,7 @@ body, h1, h2, p, a {
   }
   
   .screenshot {
-    width: 45%; /* Adjust width as needed */
+    width: 35%; /* Adjust width as needed (smaller size) */
     margin: 0 2.5%; /* Space between images */
     border-radius: 10px; /* Optional: rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -42,7 +42,7 @@ body, h1, h2, p, a {
   
   /* Video Styling */
   video {
-    width: 80%; /* Adjust width as needed */
+    width: 60%; /* Adjust width as needed (smaller size) */
     margin: 20px 0;
     border-radius: 10px; /* Optional: rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
