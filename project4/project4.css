@@ -94,4 +94,12 @@ body, h1, h2, p, a {
         transform: translateY(0);
     }
   }
+  /* Button Group Styling */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
   
