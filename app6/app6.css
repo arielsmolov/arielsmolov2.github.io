@@ -53,8 +53,9 @@ header h1 {
 }
 
 .video-gallery video {
-  width: 40%; /* Adjusted width to make videos smaller */
-  max-width: 300px; /* Set max width for smaller screens */
+  width: 35%; /* Adjusted to smaller width */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 200px; /* Limit height */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -65,8 +66,9 @@ header h1 {
 }
 
 .screenshot-gallery .screenshot {
-  width: 40%; /* Adjusted width to make screenshot smaller */
-  max-width: 300px; /* Set max width for smaller screens */
+  width: 40%; /* Adjusted to smaller width */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 200px; /* Limit height */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
