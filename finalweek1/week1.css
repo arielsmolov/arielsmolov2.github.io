@@ -1,0 +1,112 @@
+/* General Reset */
+body, h1, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+  
+body {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    padding: 20px;
+    background-color: #1a73e8;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* Description Styling */
+.description {
+    margin: 20px 0;
+}
+
+.description ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    font-size: 1.2rem;
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/* Video Gallery Styling */
+.video-gallery {
+    margin-top: 30px;
+}
+
+.video-gallery h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #1a73e8;
+}
+
+.video-wrapper {
+    display: inline-block;
+    margin: 10px;
+    width: 30%;
+}
+
+.video-wrapper video {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.video-wrapper video:hover {
+    transform: scale(1.05);
+}
+
+.video-wrapper p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 30px;
+}
+
+.back-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #1a73e8;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.back-btn:hover {
+    background-color: #0a4d8b;
+    transform: translateY(-5px);
+}
+
+/* Animations */
+header, .description, .video-gallery, .back-btn {
+    animation: fadeInUp 1s ease;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
