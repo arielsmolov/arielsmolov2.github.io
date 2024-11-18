@@ -54,14 +54,21 @@ header h1 {
 .video-wrapper {
     display: inline-block;
     margin: 10px;
-    width: 30%;
+    width: 30%; /* Default width for videos */
 }
 
+/* Adjusted width for specific videos */
 .video-wrapper video {
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
+}
+
+/* Smaller width for Sign In and Login videos */
+.video-wrapper.signin, 
+.video-wrapper.login {
+    width: 20%; /* Smaller width */
 }
 
 .video-wrapper video:hover {
