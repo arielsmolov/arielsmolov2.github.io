@@ -14,7 +14,7 @@ body {
 
 /* Header Styling */
 header {
-    padding: 20px;
+    padding: 30px;
     background-color: #1a73e8;
     color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -22,19 +22,20 @@ header {
 }
 
 header h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 700;
 }
 
 /* Description Styling */
 .description {
-    margin: 20px 0;
+    margin: 30px 0;
+    font-size: 1.4rem; /* Increased font size */
 }
 
 .description ul {
     list-style-type: disc;
-    padding-left: 40px;
-    font-size: 1.2rem;
+    padding-left: 50px;
+    font-size: 1.4rem;
     text-align: left;
     display: inline-block;
     margin: 0 auto;
@@ -42,22 +43,21 @@ header h1 {
 
 /* Video Gallery Styling */
 .video-gallery {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .video-gallery h2 {
-    margin-bottom: 20px;
-    font-size: 1.8rem;
+    margin-bottom: 25px;
+    font-size: 2rem;
     color: #1a73e8;
 }
 
 .video-wrapper {
     display: inline-block;
-    margin: 10px;
-    width: 30%; /* Default width for videos */
+    margin: 15px;
+    width: 35%; /* Increased size slightly */
 }
 
-/* Adjusted width for specific videos */
 .video-wrapper video {
     width: 100%;
     border-radius: 10px;
@@ -65,35 +65,29 @@ header h1 {
     transition: transform 0.3s ease;
 }
 
-/* Smaller width for Sign In and Login videos */
-.video-wrapper.signin, 
-.video-wrapper.login {
-    width: 20%; /* Smaller width */
-}
-
 .video-wrapper video:hover {
     transform: scale(1.05);
 }
 
 .video-wrapper p {
-    margin-top: 10px;
-    font-size: 1rem;
+    margin-top: 15px;
+    font-size: 1.2rem;
     color: #555;
 }
 
 /* Footer Styling */
 footer {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .back-btn {
     display: inline-block;
-    padding: 15px 30px;
+    padding: 20px 40px; /* Increased padding */
     background-color: #1a73e8;
     color: #fff;
     text-decoration: none;
     border-radius: 50px;
-    font-size: 1.2rem;
+    font-size: 1.4rem; /* Increased font size */
     transition: background 0.3s ease, transform 0.3s ease;
 }
 
