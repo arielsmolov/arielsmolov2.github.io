@@ -1,0 +1,116 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9; /* Neutral light background */
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    padding: 20px;
+    background: linear-gradient(90deg, #1a73e8, #4a90e2);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Description Section */
+.description {
+    margin: 40px 0;
+}
+
+.description p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.description ul {
+    list-style: disc;
+    margin: 0 auto;
+    text-align: left;
+    display: inline-block;
+    font-size: 1.1rem;
+}
+
+.description li {
+    margin: 10px 0;
+}
+
+/* Video Gallery */
+.video-gallery {
+    margin-top: 40px;
+}
+
+.video-gallery h2 {
+    font-size: 1.8rem;
+    color: #1a73e8;
+    margin-bottom: 20px;
+}
+
+.video-wrapper {
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.video-wrapper video {
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-description {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Side-by-side videos */
+.app-videos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.video-item video {
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 40px;
+    padding: 10px 0;
+}
+
+.back-btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: linear-gradient(90deg, #1a73e8, #4a90e2);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.back-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
